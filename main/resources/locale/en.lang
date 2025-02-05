@@ -1,0 +1,191 @@
+[item]
+LogicBench=Wire Station
+LogicBenchTier2=Forged Wire Station
+LogicBenchTier3=Mystic Wire Station
+LogicBenchTier4=Pristine Wire Station
+wireRemote=Wireless Remote
+anyarrowtrap=Any Arrow Trap
+anyflametrap=Any Flame Trap
+anyvoidtrap=Any Void Trap
+
+[itemtooltip]
+placetippath=Can only be placed on matching tiles
+remotechanneltip=Active channel: §#00B715<channel>
+remotetip1=[input=mouse1]Switch channels
+remotetip2=[input=mouse2]Toggle wire state
+wiredtip=Outputs a signal while open
+openLED=After placing, use [input=mouse2] to open LED settings
+wrenchgrid=[input=mouse2] Toggle wire placement grid
+
+[deaths]
+cannontrapname=Cannonball Trap
+
+[tech]
+LOGICBENCH=Wire Station
+LOGICBENCH2=Forged Wire Station
+LOGICBENCH3=Mystic Wire Station
+LOGICBENCH4=Pristine Wire Station
+
+[object]
+storageboxTrapped=Trapped Storagebox
+demonchestTrapped=Trapped Demon Chest
+oakchestTrapped=Trapped Oak Chest
+sprucechestTrapped=Trapped Spruce Chest
+pinechestTrapped=Trapped Pine Chest
+palmchestTrapped=Trapped Palm Chest
+maplechestTrapped=Trapped Maple Chest
+birchchestTrapped=Trapped Birch Chest
+dungeonchestTrapped=Trapped Dungeon Chest
+bonechestTrapped=Trapped Bone Chest
+deadwoodchestTrapped=Trapped Deadwood Chest
+
+LogicBench=Wire Station
+LogicBenchTier2=Forged Wire Station
+LogicBenchTier3=Mystic Wire Station
+LogicBenchTier4=Pristine Wire Station
+
+deadwoodpressureplate=Deadwood Pressure Plate
+pinepressureplate=Pine Pressure Plate
+woodpathpressureplate=Wood Path Pressure Plate
+palmpressureplate=Palm Pressure Plate
+bamboopressureplate=Bamboo Pressure Plate
+stonebrickpressureplate=Stone Brick Pressure Plate
+stonetiledpressureplate=Stone Tile Pressure Plate
+stonepathpressureplate=Stone Path Pressure Plate
+snowstonebrickpathpressureplate=Snow Stone Brick Pressure Plate
+snowstonepathpressureplate=Snow Stone Path Pressure Plate
+sandstonebrickpathpressureplate=Sandstone Brick Pressure Plate
+sandstonepathpressureplate=Sandstone Path Pressure Plate
+strawpressureplate=Straw Pressure Plate
+snowstonebrickpressureplate=Snow Stone Brick Pressure Plate
+swampstonebrickpressureplate=Swamp Stone Brick Pressure Plate
+sandstonebrickpressureplate=Sandstone Brick Pressure Plate
+sandbrickpressureplate=Sand Brick Pressure Plate
+deepstonebrickpressureplate=Deep Stone Brick Pressure Plate
+deepstonetiledpressureplate=Deep Stone Tiled Pressure Plate
+deepsnowstonebrickpressureplate=Deep Snow Stone Brick Pressure Plate
+deepswampstonebrickpressureplate=Deep Swamp Stone Brick Pressure Plate
+swampstonepathpressureplate=Swamp Stone Path Pressure Plate
+spidercobbletilepressureplate=Spider Cobble Pressure Plate
+spidercastlepressureplate=Spider Castle Floor Pressure Plate
+spidercastlecarpetpressureplate=Spider Castle Carpet Pressure Plate
+slimerocktilepressureplate=Slime Rock Pressure Plate
+ancientruinpressureplate=Ancient Ruin Pressure Plate
+cryptpathpressureplate=Crypt Path Pressure Plate
+darkmoonpathpressureplate=Dark Moon Path Pressure Plate
+darkfullmoonpathpressureplate=Dark Full Moon Path Pressure Plate
+dawnpathpressureplate=Dawn Path Pressure Plate
+lavapathpressureplate=Lava Path Pressure Plate
+moonpathpressureplate=Moon Path Pressure Plate
+
+cannonballtrap=Cannonball Trap
+
+ancientruinwallflametrap=Ancient Ruin Wall Flame Trap
+ancientruinwallvoidtrap=Ancient Ruin Wall Void Trap
+ancientruinwallcannonballtrap=Ancient Ruin Wall Cannonball Trap
+
+palmwalltrap=Palm Wall <trap>
+pinewalltrap=Pine Wall <trap>
+bamboowalltrap=Bamboo Wall <trap>
+brickwalltrap=Brick Wall <trap>
+dawnwalltrap=Dawn Wall <trap>
+duskwalltrap=Dusk Wall <trap>
+cryptwalltrap=Crypt Wall <trap>
+ancientruinwalltrap=Ancient Ruin Wall <trap>
+
+
+[itemcategory]
+arrowtrap=Arrow Traps
+flametrap=Flame Traps
+voidtrap=Void Traps
+sawtrap=Saw Traps
+floortrap=Floor Traps
+cannonballtrap=Cannonball Traps
+pressureplate= Pressure Plates
+triggers=Triggers
+logic=Logic
+deco=Interactive
+other=Other
+tools=Tools
+logiccalculators=Logic Calculators
+logicsensors=Logic Sensors
+logicactivators=Logic Activators
+
+[logicgate]
+soundgate=Sound Activator
+sensorgate=Mob Sensor
+buffergate=Buffer Calculator
+delaygate=Delay Calculator
+countergate=Counter Calculator
+timergate=Timer Calculator
+xnorgate=XNOR Gate
+
+timeGate=Time Sensor
+storageGate=Storage Sensor
+lightGate=Light Sensor
+weatherGate=Weather Sensor
+projectileGate=Projectile Sensor
+fakewallGate=Wall Activator
+
+[ui]
+null=
+value=<value>
+channel=Channel
+ledpanelheader=LED Panel
+SensorLabel=Sensor Settings
+timeSensorLabel=Sensor Settings
+hourrange=Hour:
+hourvalue=Hour: <hour>
+minuterange=Minute:
+minutevalue=Minute: <minute>
+timeinverted=Invert output
+storageSensorLabel=Outputs
+redslots=Red value:
+redslotsvalue=<redslotsvalue>
+greenslots=Green value:
+greenslotsvalue=<greenslotsvalue>
+blueslots=Blue value:
+blueslotsvalue=<blueslotsvalue>
+yellowslots=Yellow value:
+yellowslotsvalue=<yellowslotsvalue>
+lightSensorLabel=Sensor Settings
+lightrange=Light level:
+lightvalue=Light level: <hour>
+lightrangecurrent=Current light level: <lightLevel>
+lightrangenote=Reopen window to refresh\nthe current light level.
+lightlogictip=Outputs a signal when the light level is at or above the set level.\n\nInverted outputs a signal when the light level is below the set level.
+storagelogictip=Outputs a signal when the container has the set number of slots filled.\n\nInverted outputs a signal when the container has less slots filled than set.
+timelogictip=Outputs a signal when the current time is at or above the set time.\n\nInverted outputs a signal when the current time is below the set level.
+fakewalllogictip=Will hide the wall it is placed on when the input signal is active.\n\nInverted will hide the wall it is placed on if the input signal is not active.
+wallSensorLabel=Activator Settings
+weatherSensorLabel=Sensor Settings
+weatherlogictip=Outputs a signal when it is currently raining/snowing.\n\nInverted outputs a signal when it is not raining/snowing.
+ProjPlayer=Player
+ProjMob=Mobs
+ProjTrap=Traps
+ProjDamage=Damaging
+ProjOther=Other
+projectilelogictip=Outputs a signal if a projectile is within range.\n\n"Players" are human players.\n"Mobs" are any non-player mobs.\n"Traps" are any traps.\n"Damaging" are any projectiles that can cause damage\n"Other" are all other projectiles.\n\nInverted outputs a signal UNTIL a projectile is detected in range.
+LEDRed=Red Output
+LEDGreen=Green Output
+LEDBlue=Blue Output
+LEDYellow=Yellow Output
+ledlogictip=Displays a color depending on the input set.\n\nIf multiple inputs are active, colors will display in descending order.
+
+
+andgatelogictip=Outputs a signal if ALL inputs are ON.
+nandgatelogictip=Outputs a signal UNLESS ALL inputs are ON.
+orgatelogictip=Outputs a signal if ANY input is ON.
+norgatelogictip=Outputs a signal if ALL inputs are OFF.
+xorgatelogictip=Outputs a signal if ONLY ONE signal is ON.
+buffergatelogictip=Outputs a signal after a set time after the input signal is turned ON.\n\nWill continue to output the signal for a set time after the input signal turns OFF.\n\nUnlike delays, buffers will still activate if the input signal is OFF before the output signal turns ON.
+countergatelogictip=Outputs a signal once the set value reaches the current value. Will reset back to 0 after going over the max value.\n\n"Increase" signal increases the value.\n"Decrease" signal decreases the value.\n"Reset" signal resets the value.
+countercurrent=Current Value
+countercurrentvalue=<value>
+timergatelogictip=Outputs a signal at set intervals if any input is ON.
+soundgatelogictip=Plays the selected sound when any signal is ON.
+delaygatelogictip=Outputs a signal after a set time.\n\nWill continue to output the signal for a set time after the input signal is OFF.\n\nUnlike buffers, delays will not activate if the input signal is OFF before the output signal turns ON.
+SRlatchgatelogictip=Will continue to output a signal once an "Activate" signal is ON.\n\nIf the "Activate" signal is OFF, the "Reset" signal will turn the output OFF.\n\nIf the "Activate" signal is ON, the "Reset" signal will turn the output OFF until the "Reset" signal is tuned OFF.
+sensorgatelogictip=Outputs a signal if a valid mob is within range.\n\n"Players" are human players.\n\n"Hostile Mobs" are any mobs that will attack players/NPCs on sight.\n\n"Passive Mobs" are any mobs that will not attack players/NPCs on sight.
+TFlipFlopgatelogictip=Will switch between outputs each time an input signal is ON.
+xnorgatelogictip=Outputs a signal if all inputs are the same (ON/OFF).
