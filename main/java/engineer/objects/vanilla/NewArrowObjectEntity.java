@@ -208,8 +208,11 @@ public class NewArrowObjectEntity extends InventoryObjectEntity {
 
     public void triggerTrap(int wireID, int dir) {
         if (this.isClient()) {
-            //this.getClient().getFocusForm().dispose();
-            this.getClient().closeContainer(true);
+            if (this.getClient().hasOpenContainer()) {
+                if (this.getClient().getContainer().form.toString().contains("arrowTrap")) {
+                    this.getClient().closeContainer(true);
+                }
+            }
         }
         if (!this.isClient() && !this.onCooldown()) {
             if (!this.otherWireActive(wireID)) {
