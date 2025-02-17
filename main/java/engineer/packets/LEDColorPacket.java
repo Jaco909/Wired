@@ -10,6 +10,7 @@ import necesse.engine.network.client.Client;
 import necesse.engine.network.server.Server;
 import necesse.engine.network.server.ServerClient;
 import necesse.entity.objectEntity.ObjectEntity;
+import necesse.inventory.InventoryItem;
 import necesse.level.maps.Level;
 
 import java.awt.*;
