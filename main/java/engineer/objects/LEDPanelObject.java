@@ -192,8 +192,10 @@ public class LEDPanelObject extends GameObject {
                 return true;
             } else if (ledEnt.wireInputs[0] && level.wireManager.isWireActive(x,y,0)) {
                 return true;
+            } else if (level.isTrialRoom && level.wireManager.isWireActiveAny(x,y)) {
+                return true;
             } else {
-            return false;
+                return false;
             }
         } else {
             return false;
