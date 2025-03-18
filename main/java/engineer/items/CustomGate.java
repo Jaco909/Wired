@@ -33,7 +33,7 @@ public class CustomGate extends GameLogicGate {
 
     public String canPlace(Level level, int tileX, int tileY) {
         if (level.isClient()) {
-            int tier = level.getClient().getPlayer().getInv().streamInventorySlots(false, false, false, false).map(InventorySlot::getItem).filter((i) -> i != null && i.item instanceof ToolDamageItem).mapToInt((i) -> ((ToolDamageItem)i.item).getToolTier(i)).max().orElse(-1);
+            int tier = level.getClient().getPlayer().getInv().streamInventorySlots(false, false, false, false).map(InventorySlot::getItem).filter((i) -> i != null && i.item instanceof ToolDamageItem).mapToInt((i) -> (int) ((ToolDamageItem)i.item).getToolTier(i)).max().orElse(-1);
             if (level.getObject(tileX,tileY).toolTier <= tier) {
                 return level.logicLayer.hasGate(tileX, tileY) ? "occupied" : null;
             } else {
